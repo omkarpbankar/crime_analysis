@@ -1,8 +1,12 @@
+# local library
+-e .
+
 
 #dvc 
-dvc
-dvc[gdrive]
-dvc[s3]
+#mamba install -c conda-forge dvc
 
 #other important library 
 pandas
+notebook
+ipywidgets
+pandas_profiling

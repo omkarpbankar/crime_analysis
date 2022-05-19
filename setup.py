@@ -11,8 +11,9 @@ setup(
     long_description_content_type="text/markdown",
     url='https://github.com/omkarpbankar/Crime_Analysis',
     author = "omkarpbankar",
-    package_dir={"": "src"},
-    packages=find_packages(where='src'),
+    #package_dir={"": "src"},
+    #packages=find_packages(where='src'),
+    packages=['src'],
     License="GNU",
     python_version="<=3.7",
     install_requires=[
