@@ -2,10 +2,10 @@ base:
   project: crime analysis project
   
 data_source:
-  s3_source: s3:https://crimedatacoursethon.s3.amazonaws.com/Legacy_Baton_Rouge_Crime_Incidents.csv
+  s3_source: "https://aiopsdeeplearning.s3.amazonaws.com/Legacy_Baton_Rouge_Crime_Incidents.csv"
 
 artifacts: 
   artifacts_dir: artifacts
   
   raw_local_data_dir: artifacts/raw_local_data_dir
-  raw_local_data_dir: artifacts/raw_local_data_dir/data.csv
+  raw_local_data: artifacts/raw_local_data_dir/data.csv

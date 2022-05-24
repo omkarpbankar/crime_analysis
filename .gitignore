@@ -131,3 +131,7 @@ dmypy.json
 # vscode
 .vscode/
 # notebook
+
+# data 
+artifacts/raw_local_data_dir
+

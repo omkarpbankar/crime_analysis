@@ -4,6 +4,7 @@
 
 #dvc 
 #mamba install -c conda-forge dvc
+dvc[s3]
 
 #other important library 
 pandas
